@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>wow</title>
+    <script src='js/client/socket.io.js'></script>
+    <script src='js/client/index.js'></script>
+
+
+    <style>
+
+        tr:hover {
+            background-color: #d8d8d8;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-left: 30px;
+            margin-right: 30px;
+
+        }
+
+        table, td, th {
+
+            border: 1px solid black;
+        }
+
+        th, td {
+            width: 500px;
+            padding: 5px;
+            text-align: left;
+        }
+
+        tr {
+            height: 35px;
+        }
+
+        td img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background: red;
+            background:#7fb5da;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<br><br>
+<p>Baza Mongodb z cenami przedmiotów gry WOW</p>
+
+<input type='text' id='idNazwa'>
+<input type='text' id='idObrazek'>
+<input type='number' min='1' max='200' id='idIlosc'>
+<input type='number' id='idCena'>
+<button id='idZapisz'>Zapisz do bazy</button>
+
+<br><br>
+<hr>
+<br><br>
+
+<button id='idPokazWow'>Pokaz zawartosc bazy wow</button>
+
+
+<br><br><br>
+</body>
+</html>
+
+
+
+
